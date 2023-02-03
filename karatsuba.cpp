@@ -23,6 +23,7 @@ double karatsuba(double x, double y){
     return ac * pow(10, 2 * n) + (abcd - ac - bd) * pow(10, n) + bd;
 }
 
+
 int main()
 {
     printf("%lf", karatsuba(1234, 5678));
